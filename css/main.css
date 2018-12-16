@@ -1,0 +1,245 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+@charset "UTF-8";
+
+/* Coolors Exported Palette - coolors.co/
+
+white ffffff 
+lighter blue 00abcd
+darker blue 006989
+grey a3bac3
+black 00171f 
+
+*/
+
+#top-nav {
+/*margin: 0 0 -50 0;*/
+background-color: #00abcd;
+
+}
+
+#top-nav-ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+float: right;
+}
+
+#top-nav-li {
+ 
+ float: right;
+ padding: 0 10 0 10;
+ margin: 10px;
+ font-size: 1.5em;
+}
+
+/* Global Styles */
+
+/*box model fix*/
+
+html {
+box-sizing: border-box;	
+font-size: 1.1em;
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*end of box model fix*/
+
+body {
+
+background: #ffffff;
+font-family: 'Roboto', sans-serif;
+
+}
+
+
+/* End of Global Styles */
+
+header {
+
+margin: 0 20 20 20;
+padding: 10px;	
+}
+
+footer {
+margin: 20 0 20 0;
+padding: 10px;	
+}
+
+
+header h1 {
+font-size: 2.0em;	
+}
+
+h1, h2 {
+font-family: 'Open Sans', sans-serif;
+font-size: 1.7em;	
+}
+
+header p {
+	line-height: 150%;
+}
+
+/*width property only applies to the content box...remember that*/
+.content-wrap {
+	max-width: 950px;
+	margin: 0 auto;
+	overflow: auto;
+
+
+}
+
+
+
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #00abcd;
+}
+
+/* Header and Footer */
+
+
+header, footer {
+
+border-style: solid;
+border-color: #FFFFFF;
+background: #006989;
+color: #ffffff; 
+}
+
+footer {
+
+	text-align: center;
+	
+}
+
+
+
+
+#top-nav {
+margin: 0 0 -50 0;
+background-color: transparent;
+
+}
+
+#top-nav-ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+float: right;
+}
+
+#top-nav-li {
+ 
+ float: right;
+ padding: 0 10 0 10;
+ margin: 10px;
+ font-size: 1.5em;
+}
+.contact-info {
+margin-bottom: 200px;
+
+
+}
+
+/*images*/
+
+#logo {
+height: 200px;
+}
+
+
+#phishing-image {
+display: inline-block;
+float: left;
+border-radius: 50%;
+margin-right: 70px; 
+/*overflow: auto;*/
+}
+
+
+/* Phishing */
+
+#phishing {
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #006989;
+	margin: 20px;
+	padding: 10px;
+	/*background: #a3bac3;*/
+	line-height: 150%;
+	color: #00171f;
+	overflow: auto;
+}
+
+#phishing-text {
+	/*float: right;*/
+}
+
+
+
+/* Penetration */
+
+#penetration-image {
+display: inline-block;
+/*border-style: solid;*/
+float: right;
+}
+
+#penetration-text {
+/*float: left;*/
+/*margin-right: 70px; */	
+}
+
+#penetration {
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #006989;
+	margin: 20px;
+	padding: 10px;
+	background: #FFFFFF;
+	line-height: 150%;
+	color: #00171f;
+	clear: left;
+}
+
+/* Other */
+
+#networkAnalysis {
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #006989;
+	margin: 20px;
+	padding: 10px;
+	background: #a3bac3;
+	line-height: 150%;
+	color: #00171f;
+}
+
+#other {
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #006989;
+	margin: 20px;
+	padding: 10px;
+	background: #a3bac3;
+	line-height: 150%;
+	color: #00171f;
+}
