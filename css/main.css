@@ -19,27 +19,7 @@ black 00171f
 
 */
 
-#top-nav {
-/*margin: 0 0 -50 0;*/
-background-color: #00abcd;
 
-}
-
-#top-nav-ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-float: right;
-}
-
-#top-nav-li {
- 
- float: right;
- padding: 0 10 0 10;
- margin: 10px;
- font-size: 1.5em;
-}
 
 /* Global Styles */
 
@@ -133,17 +113,18 @@ footer {
 
 
 #top-nav {
-margin: 0 0 -50 0;
+text-align: center;
+
 background-color: transparent;
 
 }
 
 #top-nav-ul {
+text-align: center;
+position: fixed;
+right: 70px;
 list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-float: right;
+
 }
 
 #top-nav-li {
@@ -153,6 +134,12 @@ float: right;
  margin: 10px;
  font-size: 1.5em;
 }
+
+#banner {
+margin-top: 50px;
+
+}
+
 .contact-info {
 margin-bottom: 200px;
 
